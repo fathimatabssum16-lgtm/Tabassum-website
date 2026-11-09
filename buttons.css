@@ -1,0 +1,60 @@
+ .SUBSCRIBE-button {
+                background-color: rgb(211, 32, 32);
+                color: white;
+                border: none;
+                padding-bottom: 10px;
+                padding-left: 16px;
+                padding-right: 16px;
+                padding-top: 10px;
+                border-radius: 2px;
+                cursor: pointer;
+                font-size: 14px;
+                transition: opacity 0.8s ;
+            }
+            .SUBSCRIBE-button:hover {
+                opacity: 0.8;
+            }
+            .SUBSCRIBE-button:active {
+                background-color: rgb(142, 140, 140);
+                color: black;  
+            }
+            .JOIN-button {
+                background-color: white;
+                color: rgba(100, 197, 235, 0.901);
+                border-color: rgba(100, 197, 235, 0.901);
+                border-style: solid;
+                padding-top: 9px;
+                padding-bottom: 9px;
+                padding-right: 15px;
+                padding-left: 15px;
+                cursor: pointer;
+                font-size: medium;
+                margin-left: 8px;
+                transition: background-color 0.15s;
+            }
+            .JOIN-button:hover {
+                background-color: rgba(100, 197, 235, 0.901);
+                color: white;
+            }
+            .JOIN-button:active {
+                    opacity: 0.7;
+                }
+            .TWEET-button {
+                background-color: rgba(100, 197, 235, 0.901);
+                color: white;
+                border: none;
+                height: 35px;
+                width: 100px;
+                border-radius: 18px;
+                font-weight: bold;
+                font-size: medium;
+                cursor: pointer;
+                margin-left: 8px;
+            }
+            .TWEET-button:hover {
+               opacity: 0.9;
+               box-shadow: 8px 8px 8px rgba(43, 99, 121, 0.901);
+            }
+            .TWEET-button:active {
+                opacity: 0.7;
+            }
